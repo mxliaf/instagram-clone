@@ -1,3 +1,5 @@
+import BotoesBar from "./BotoesBar"
+
 function Navbar() {
     return (
     <>
@@ -6,14 +8,7 @@ function Navbar() {
         <div id="logo">
             <p id="textologo">Wired</p>
         </div>
-        <div id="botoesconta">
-            <div id="entrar">
-                <p>Entrar</p>
-            </div>
-            <div id="cadastrar">
-                <p>Cadastre-se</p>
-            </div>
-        </div>
+        <BotoesBar></BotoesBar>
     </header>
     </div>
     </>

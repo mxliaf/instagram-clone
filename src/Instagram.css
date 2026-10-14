@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: rgba(160, 95, 119, 0.557);
@@ -45,25 +49,13 @@ a {
 }
 
 #botoesconta {
-    justify-content: end;
+    justify-content: space-between;
+    margin-left: auto;
     display: flex;
     gap: 8px;
 }
 
-#entrar {
-    display: flex;
-    height: 35px;
-    width: 70px;
-    padding: 6px;
-    border-radius: 12px;
-    background-color: rgba(161, 195, 184, 0.976);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-#cadastrar {
+.botoesnav {
     display: flex;
     height: 35px;
     width: max-content;
@@ -74,6 +66,7 @@ a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
 }
 
 #MainContainer {
@@ -167,10 +160,11 @@ a {
     justify-content: center;
 }
 
-#botaoseguir {
+.botoesopcoes {
     height: 35px;
     width: 295px;
     padding: 12px 20px;
+    gap: 20px;
     border-radius: 12px;
     background-color: gainsboro;
     display: flex;
@@ -178,18 +172,6 @@ a {
     justify-content: center;
     cursor: pointer;
     }
-
-#botaomensagem {
-    height: 35px;
-    width: 295px;
-    padding: 12px 20px;
-    border-radius: 12px;
-    background-color: gainsboro;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
 
 #destaques {
     /* background-color: rgb(221, 166, 245); */
@@ -270,15 +252,11 @@ a {
     box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);;
 }
 
-#botaoseguir:hover {
+.botoesopcoes:hover {
     background-color: rgba(123, 120, 120, 0.353);
     transition: transform 0.5s ease;
 }
 
-#botaomensagem:hover {
-    background-color: rgba(123, 120, 120, 0.353);
-    transition: transform 0.5s ease;
-}
 
 #profileheader:hover {
     transform: scale(1.2);
@@ -293,13 +271,7 @@ a {
     box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
 }
 
-#entrar:hover {
-    background-color: rgba(43, 67, 60, 0.656);
-    transition: transform 0.5s ease;
-    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
-}   
-
-#cadastrar:hover {
+.botoesnav:hover {
     background-color: rgba(43, 67, 60, 0.656);
     transition: transform 0.5s ease;
     box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
@@ -318,13 +290,10 @@ a {
     transition: transform 0.5s ease;
 }
 
-#botaoseguir:hover {
+.botoesopcoes:hover {
     box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
 }
 
-#botaomensagem:hover {
-    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
-}
 
 #entrar:hover {
     transition: 0.5s;
